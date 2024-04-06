@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="/assets/img/Logo.png" alt="logo" />
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Planes</a></li>
+          <li><a href="#">Creadores</a></li>
+        </ul>
+      </nav>
+      <a class="btn" href="#"><button>Contactanos</button></a>
+      <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+      <div class="overlay" id="mobile-menu">
+        <a onclick="closeNav()" class="close" href="#">&times;</a>
+        <div class="overlay-content">
+          <a href="#">Nosotros</a>
+          <a href="#">Servicios</a>
+          <a href="#">Planes</a>
+          <a href="#">Creadores</a>
+          <a href="#">Contactanos</a>
+        </div>
+      </div>
+    </header>
+    <div class="inicio">
+      <div class="texto-inicio">
+        "Defendiendo a médicos, aliviando preocupaciones legales."
+      </div>
+    </div>
+    <script src="assets/menu.js"></script>
+  </body>
+</html>
