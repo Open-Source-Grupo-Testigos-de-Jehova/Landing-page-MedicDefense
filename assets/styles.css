@@ -461,3 +461,58 @@ text-align: center;
   transform: scale(1.05);
   box-shadow: 0px 0px 0px -10px rgba(0,0,0,0.2);
 }
+/* Seccion creadores */
+/* Estilos para el tÃ­tulo */
+.tiulo-creadores {
+  display: flex;
+  margin: 5px 0;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  flex-direction: row;
+}
+
+.creadores-titulo {
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  color: #000000;
+}
+
+/* Estilos para el contenedor de creadores */
+.creators-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #f49c7c;
+}
+
+/* Estilos para cada creador */
+.creator {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-creadores {
+  display: flex;
+  justify-content: center;
+}
+
+.creator img {
+  border-radius: 80%;
+  width: 150px;
+  height: 150px;
+}
+
+/* Estilos para el pie de pÃ¡gina */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #000000;
+  margin-bottom: 0;
+  color: #fff;
+}
