@@ -500,6 +500,7 @@ text-align: center;
 .img-creadores {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .creator img {
