@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MedicDefense</title>
-    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/styles.css" rel="noopener" />
   </head>
   <body>
     <header class="header">
@@ -13,36 +13,44 @@
       </div>
       <nav>
         <ul class="nav-links">
-          <li><a href="#" id="nosotros">Nosotros</a></li>
-          <li><a href="#" id="servicios">Servicios</a></li>
-          <li><a href="#" id="planes">Planes</a></li>
-          <li><a href="#" id="creadores">Creadores</a></li>
+          <li><a href="#" id="nosotros">About Us</a></li>
+          <li><a href="#" id="servicios">Our Services</a></li>
+          <li><a href="#" id="planes">Our Plans</a></li>
+          <li><a href="#" id="atp-container">About the product</a></li>
+          <li><a href="#" id="att-container">About the Team</a></li>
+          <li><a href="#" id="creadores">Creators</a></li>
         </ul>
       </nav>
-      <a class="btn" href="#" id="contacto"><button>Contactanos</button></a>
+      <a class="btn" href="#" id="contacto"><button>Contact Us</button></a>
       <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
 
       <div class="overlay" id="mobile-menu">
         <a onclick="closeNav()" class="close" href="#">&times;</a>
         <div class="overlay-content">
-          <a href="#" id="nosotros2">Nosotros</a>
-          <a href="#" id="servicios2">Servicios</a>
-          <a href="#" id="planes2">Planes</a>
-          <a href="#" id="creadores2">Creadores</a>
-          <a href="#" id="contacto2">Contactanos</a>
+          <a href="#" id="nosotros2">About Us</a>
+          <a href="#" id="servicios2">Our Services</a>
+          <a href="#" id="planes2">Our Plans</a>
+          <a href="#" id="atp-container2">About the product</a>
+          <a href="#" id="att-container2">About the Team</a>
+          <a href="#" id="creadores2">Creators</a>
+          <a href="#" id="contacto2">Contact Us</a>
         </div>
       </div>
     </header>
     <div class="inicio">
       <div class="texto-inicio">
-        "Defendiendo a médicos, aliviando preocupaciones legales."
+        "Defending all the doctors, relieving them of their legal worries."
+        <br> 
+        <button>
+          <a class="app-link" href="https://medicdefense.netlify.app/" target="_blank">Visit our platform</a> 
+        </button>
       </div>
     </div>
     
 <!-- Seccion Nosotros -->
     <section class="nosotros"id="nosotros-section">
       <div class="contenedor-nosotros">
-          <h2>Nosotros</h2>
+          <h2>About Us</h2>
       </div>
       <div class="images-container">
         <a><img src="assets/img/abogado.jpg" alt=""></a>
@@ -60,7 +68,7 @@
   <!-- Servicios-->
   <section class="Servicios"id="servicios-section">
     <div class="subServicios">
-        <h2>Nuestros Servicios</h2>
+        <h2>Our Services</h2>
     </div>
     <div class="images-row">
         <div class="images-row">
@@ -87,7 +95,7 @@
     <!-- Servicios Planes -->
     <div class="servicios-planes" id="planes-section">
       <div class = "contenedor-planes-texto">
-          <h2>Nuestros Planes</h2>
+          <h2>Our Plans</h2>
       </div>
       <div class="plan">
           <h3>Ayuda Legal</h3>
@@ -112,7 +120,7 @@
       <div class="left"></div>
       <div class="right">
         <form>
-          <h2>Contactanos</h2>
+          <h2>Contact Us</h2>
           <input type="text" class="field" placeholder="Nombre:" />
           <input type="text" class="field" placeholder="Apellido:" />
           <input type="text" class="field" placeholder="Telefono:" />
@@ -123,10 +131,28 @@
       </div>
     </div>
   </div>
+  <!-- About the product -->
+  <div class="atp-container">
+    <div class="atp-title">
+      <p>About the product</p>
+    </div>
+    <div class="atp-img">
+      <img src="https://static.vecteezy.com/system/resources/previews/021/911/756/non_2x/white-frame-free-png.png" alt="">
+    </div>
+  </div>
+  <!-- About the team -->
+  <div class="att-container">
+    <div class="att-title">
+      <p>About the team</p>
+    </div>
+    <div class="att-img">
+      <img src="https://static.vecteezy.com/system/resources/previews/021/911/756/non_2x/white-frame-free-png.png" alt="">
+    </div>
+  </div>
 <!-- Seccion Creadores -->
 <div class="creators-container" id="creators-section">
   <div class="tiulo-creadores">
-    <h1 class="creadores-titulo">CREADORES</h1>
+    <h1 class="creadores-titulo">Creators</h1>
   </div>
   <div class="img-creadores">
     <div class="creator">
@@ -153,8 +179,35 @@
   
 </div>
 <footer>
-  <p>UPC 2024-01 - Desarrollo de Aplicaciones Open Source</p>
-</footer>
+  <div class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h2>Visit</h2>
+        <ul>
+          <li><a href="https://maps.app.goo.gl/ey1Xtwqha5hLyR9CA" target="_blank">Upc - San Isidro</a></li>
+          <li><a href="https://maps.app.goo.gl/E7SRcGDqdbcfSAdt5" target="_blank">Real Plaza Salaverry</a></li>
+          <li><a href="https://maps.app.goo.gl/DgUQJK84hB5zeJMP7" target="_blank">Rambla - Brasil</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h2>E-mails</h2>
+        <ul>
+          <li>MedicDefense@gmail.com</li>
+          <li>SoporteMedic@gmail.com</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h2>Our Social Media</h2>
+        <ul>
+          <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+          <li><a href="https://twitter.com" target="_blank">X</a></li>
+          <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <p>UPC 2024-01 . Open-Source Applications</p>
+  </footer>
+
   <script src="assets/menu.js"></script>
   </body>
 </html>
