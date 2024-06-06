@@ -11,6 +11,8 @@ const servicios = document.querySelector("#servicios");
 const planes = document.querySelector("#planes");
 const creadores = document.querySelector("#creadores");
 const contacto = document.querySelector("#contacto");
+const atp = document.querySelector("#atp-container");
+const att = document.querySelector("#att-container");
 
 nosotros.addEventListener("click", (n) => {
     n.preventDefault();
@@ -36,6 +38,18 @@ creadores.addEventListener("click", (cr) => {
 contacto.addEventListener("click", (c) => {
     c.preventDefault();
     const selectionC = document.querySelector("#contact-section");
+    selectionC.scrollIntoView({ behavior: "smooth" });
+});
+
+atp.addEventListener("click", (c) => {
+    c.preventDefault();
+    const selectionC = document.querySelector("#atp-section");
+    selectionC.scrollIntoView({ behavior: "smooth" });
+});
+
+att.addEventListener("click", (c) => {
+    c.preventDefault();
+    const selectionC = document.querySelector("#att-section");
     selectionC.scrollIntoView({ behavior: "smooth" });
 });
 
